@@ -1,0 +1,73 @@
+/* payment.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #113c67;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    background-color: #000;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #113c67;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #113c67;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.navbar-text {
+    font-weight: bold;
+}
+
+/* Footer */
+.page-footer {
+    background-color: #113c67;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-header {
+        font-size: 18px;
+    }
+}

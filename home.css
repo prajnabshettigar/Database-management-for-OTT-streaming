@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    height: 100%;
+    background-color: black; /* Set the background color to black */
+  }
+  
+  .navbar-text {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .navbar li {
+    padding: 0 40px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .navbar span {
+    font-size: 25px;
+  }
+  
+  .nav-item a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+  }
+  
+  .navbar-brand img {
+    height: 80px;
+  }
+  
+  .container-fluid {
+    background-image: url(images/pic9.webp);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .container-fluid h1 {
+    color: white;
+  }
+  
+  .page-footer {
+    background-color: black;
+    color: white;
+  }
+  
+  .col a {
+    text-align: center;
+  }
+  
+  /* Set background of search bar to grey */
+  .navbar {
+    background-color: rgb(72, 73, 73);
+  }
+  
+  /* Set background of search input to grey */
+  .navbar form {
+    background-color: rgb(72, 73, 73);
+  }
+  
